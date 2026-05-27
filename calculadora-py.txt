@@ -1,0 +1,23 @@
+num1 = int(input("digite um numero: "))
+sinal = str(input("digite o sinal da operação: "))
+num2 = int(input("digite outro numero: "))
+
+if sinal == '+':
+    resul = num1 + num2
+    print("O resultado da soma é: ", resul)
+
+elif sinal == '-':
+    resul = num1 - num2
+    print("O resultado da subtração é: ", resul)
+
+elif sinal == '*':
+    resul = num1 * num2
+    print("O resultado da multplicação é: ", resul)
+
+elif sinal == '/':
+    resul = num1 / num2
+    sobra = num1 % num2
+    print("O resultado da divisão é: ", resul, "\n sobra: ", sobra)
+
+else:
+    print("sinal invalido")
